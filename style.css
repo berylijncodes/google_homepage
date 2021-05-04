@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, "segoe UI", Tahoma, sans-serif;
+}
+
+/* Header */
+nav {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-left: auto;
+  padding: 10px 15px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav .btn {
+  background-color: #0e49b5;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 2px;
+  border: none;
+}
+
+.main {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.main input {
+  width: 80%;
+  padding: 0.8rem 1rem;
+  border: 1px solid gray;
+  border-radius: 40px;
+  outline: none;
+}
+
+.main .btn {
+  padding: 1rem;
+}
+
+.main .btn button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+}
